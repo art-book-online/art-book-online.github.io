@@ -29,5 +29,13 @@ header:
 
 This is the first post to the ART Book website.
 
-Whoa, this is an info block!
 {: .notice--info}
+Whoa, this is an info block!
+
+{: .notice--warning}
+Oops, this is an warning block.
+No bueno!
+
+{: .notice}
+This is just a plain notice block.
+Big whoop!
