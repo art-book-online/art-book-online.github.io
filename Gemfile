@@ -7,3 +7,5 @@ gem "webrick", group: :jekyll_plugins
 # gem "jekyll-remote-theme", group: :jekyll_plugins
 
 # gem "jekyll", "~> 3.9"
+
+gem "jekyll", "~> 3.9"
