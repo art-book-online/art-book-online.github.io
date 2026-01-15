@@ -3,7 +3,8 @@ name: Build and Deploy ART Book Website
 on:
   # Runs on pushes targeting the default branch, which is main
   push:
-    branches: [$default-branch]
+    branches: main
+    # branches: [$default-branch]
 
   # Allows this workflow to be run manually from the Actions tab
   workflow_dispatch:
