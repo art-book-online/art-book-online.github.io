@@ -20,7 +20,6 @@ Welcome to the home page of [The ART Book](_pages/about.md)!
 
 This website contains the following top-level pages:
 
-- [About](_pages/about.md) to learn more about me.
-- [Posts](_pages/posts.md) to read posts chronologically.
-- [Categories](_pages/categories.md) to filter posts by categories.
-- [Tags](_pages/tags.md) to filter posts by tags.
+- [About](about): a summary of what this website is about.
+- [Notebooks](notebooks): ART Book exercises and Jupyter notebooks.
+- [Posts](posts): blog-like posts about the book and website.

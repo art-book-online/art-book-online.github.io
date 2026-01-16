@@ -6,10 +6,10 @@ main:
     url: /notebooks/
   - title: "Posts"
     url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
+  # - title: "Categories"
+  #   url: /categories/
+  # - title: "Tags"
+  #   url: /tags/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -18,3 +18,17 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+posts:
+  # - title: Posts
+  #   children:
+  #     - title: "All Posts (Chronological)"
+  #       url: /posts/
+  - title: Sorting
+    children:
+      - title: "All Posts"
+        url: /posts/
+      - title: "Categories"
+        url: /categories/
+      - title: "Tags"
+        url: /tags/
