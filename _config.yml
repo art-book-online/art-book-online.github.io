@@ -3,6 +3,8 @@
 
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
+# safe: false
+
 # title: "Sasha Petrenko's Homepage"
 # description: "Homepage of Sasha Petrenko, graduate researcher of lifelong machine learning"
 # url: "https://ap6yc.github.io/"
@@ -249,6 +251,9 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-jupyter-notebook
+  - jupyterpluginer
+  # - jupyter_pluginer
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -257,6 +262,9 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-jupyter-notebook
+  - jupyterpluginer
+  # - jupyter_pluginer
 
 
 # Archives
@@ -294,6 +302,10 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+
+liquid:
+  error_mode: strict
 
 
 # Defaults
@@ -338,3 +350,7 @@ collections:
     permalink: /:collection/:path/
 
 exclude: [node_modules]
+
+jupyter_notebook:
+  prompt: true
+  # to: markdown

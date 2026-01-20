@@ -10,11 +10,11 @@ sidebar:
 #     image_alt: "logo"
 #     text: "Designer, Front-End Developer"
   - title: "Responsibilities"
-    text: "Reuters try PR stupid commenters should isn't a business model"
+    text: "Some text on the sidebar."
 gallery:
-  - url: /assets/images/bio-photo.jpg
-    image_path: assets/images/bio-photo.jpg
-    alt: "placeholder image 1"
+  - url: /assets/icons/book-512.png
+    image_path: assets/icons/book-512.png
+    alt: "A placeholder image"
 ---
 
 Stuff
@@ -22,3 +22,13 @@ Stuff
 {% include gallery caption="This is a sample gallery to go along with this case study." %}
 
 Things
+
+{% render_time %}
+page rendered at:
+{% endrender_time %}
+
+{::nomarkdown}
+{% jupyter_notebook "sample.ipynb" %}
+{:/nomarkdown}
+
+End of the notebook.
