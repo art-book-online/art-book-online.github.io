@@ -27,8 +27,6 @@ Things
 page rendered at:
 {% endrender_time %}
 
-{::nomarkdown}
-{% jupyter_notebook "sample.ipynb" %}
-{:/nomarkdown}
+{% jupyter_notebook "./sample.ipynb" to="markdown" %}
 
 End of the notebook.

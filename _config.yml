@@ -28,7 +28,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 # remote_theme           : "mmistakes/minimal-mistakes"
 # minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 # minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -251,9 +251,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-jupyter-notebook
-  - jupyterpluginer
-  # - jupyter_pluginer
+  # - jekyll-jupyter-notebook
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -262,9 +260,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-jupyter-notebook
-  - jupyterpluginer
-  # - jupyter_pluginer
+  # - jekyll-jupyter-notebook
 
 
 # Archives
@@ -353,4 +349,4 @@ exclude: [node_modules]
 
 jupyter_notebook:
   prompt: true
-  # to: markdown
+  to: markdown
