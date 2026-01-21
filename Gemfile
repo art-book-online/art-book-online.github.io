@@ -18,4 +18,8 @@ gem "webrick"
 # , group: :jekyll_plugins
 gem "jekyll", "~> 3.9"
 
+# Mac missing deps
+gem "base64"
+gem "bigdecimal"
+
 # gem "jekyll-jupyter-notebook", group: :jekyll_plugins
