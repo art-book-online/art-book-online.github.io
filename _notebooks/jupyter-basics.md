@@ -6,7 +6,7 @@ layout: single
 toc: true
 toc_icon: book
 toc_sticky: true
-notebook_ipynb: "sample.ipynb"
+notebook_file: "sample.ipynb"
 
 header:
 #   image: /assets/images/jupyter-logo.svg
@@ -14,8 +14,6 @@ header:
 
 # author_profile: true
 ---
-
-<i class='fas fa-fw fa-download'></i>
 
 Welcome!
 This is the first "notebook" post for the ART Book website.
