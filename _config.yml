@@ -38,7 +38,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "ART Book"
 description              : "Homepage of The ART Book and its companion materials."
 url                      : "https://art-book-online.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  :  # the subpath of your site, e.g. "/blog"
 repository               : "art-book-online/art-book-online.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "assets/icons/book-512.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "assets/icons/book-128.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"

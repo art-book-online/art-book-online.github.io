@@ -6,24 +6,16 @@ layout: single
 toc: true
 toc_icon: book
 toc_sticky: true
+notebook_ipynb: "sample.ipynb"
 
 header:
 #   image: /assets/images/jupyter-logo.svg
   teaser: /assets/images/jupyter-logo.svg
 
-# page_css:
-#   - /assets/css/styles.css
-sidebar:
-  - title: "On This Page"
-    text: "<a href='../notebooks/sample.ipynb' class='btn'><img src='/assets/icons/JUPYTER.svg' alt='Icon'></a>"
-    # text: "[![download|32x32](/assets/icons/JUPYTER.svg)](../notebooks/sample.ipynb)"
-    # text: "[<img src='/assets/icons/JUPYTER.svg' alt='drawing' height='64'/>](../notebooks/sample.ipynb)"
-    # text: "Download at: ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)"
-    # text: "[download](../notebooks/sample.ipynb){.btn}"
-
-
 # author_profile: true
 ---
+
+<i class='fas fa-fw fa-download'></i>
 
 Welcome!
 This is the first "notebook" post for the ART Book website.
@@ -37,6 +29,7 @@ The notebook begins...now!
 
 {% jupyter_notebook "./notebooks/sample.ipynb" to="markdown" %}
 
+{: .notice--info}
 {% render_time %}
 Page built at:
 {% endrender_time %}
