@@ -13,7 +13,7 @@ group :jekyll_plugins do
 end
 gem "kramdown-parser-gfm"
 
-gem 'wdm', '>= 0.2.0' if Gem.win_platform?
+# gem 'wdm', '>= 0.2.0' if Gem.win_platform?
 gem "webrick"
 # , group: :jekyll_plugins
 gem "jekyll", "~> 3.9"
