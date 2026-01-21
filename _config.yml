@@ -118,36 +118,45 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 
+
+author:
+  name: "Your Name"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "I am an **amazing** person." # Note: Markdown is allowed
+  location: "Somewhere"
+  links:
+    - label: "Made Mistakes"
+      icon: "fas fa-fw fa-link"
+      url: "https://mademistakes.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/mmistakes"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mmistakes"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/mmistakes"
+
+
+
 # Site Author
 author:
-  name             : "Sasha Petrenko"
-  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  # bio              : "Ph.D. Candidate of Computer Engineering, Aerospace Engineer, and lifelong machine learning researcher at Missouri S&T."
-  bio              : "Ph.D. of Computer Engineering, research assistant professor, machine learning researcher, and aerospace engineer at Missouri S&T."
+  name             : "ART Book"
+  avatar           : "/assets/icons/book-512.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  # bio              : "The ART Book"
   location         : "Rolla, MO"
   email            : "petrenkos@mst.edu"
   links:
     # - label : "Email"
     #   icon  : "fas fa-fw fa-envelope-square"
     #   url   : "mailto:petrenkos@mst.edu"
-    #   # url: "mailto:your.name@email.com"
     - label : "Website"
       icon  : "fas fa-fw fa-link"
-      url   : "https://ap6yc.github.io"
-      # url: "https://your-website.com"
-    # - label : "Twitter"
-    #   icon  : "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url   : "https://art-book-online.github.io"
     - label : "GitHub"
       icon  : "fab fa-fw fa-github"
       url   : "https://github.com/art-book-online"
-      # url: "https://github.com/"
-    - label : "Instagram"
-      icon  : "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
 
 # Site Footer
 footer:
@@ -312,8 +321,7 @@ defaults:
       type: posts
     values:
       layout: single
-      # author_profile: true
-      # author_profile: false
+      author_profile: false
       read_time: true
       comments: # true
       share: true
@@ -325,6 +333,7 @@ defaults:
       type: notebooks
     values:
       layout: single
+      read_time: true
       author_profile: false
       share: true
   # # _single

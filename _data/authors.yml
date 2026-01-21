@@ -1,0 +1,62 @@
+# /_data/authors.yml
+
+Billy Rick:
+  name        : "Billy Rick"
+  bio         : "What do you want, jewels? I am a very extravagant man."
+  avatar      : "/assets/images/bio-photo-2.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:billyrick@rick.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://thewhip.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/extravagantman"
+
+Cornelius Fiddlebone:
+  name        : "Cornelius Fiddlebone"
+  bio         : "I ordered what?"
+  avatar      : "/assets/images/bio-photo.jpg"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:cornelius@thewhip.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/rhymeswithsackit"
+
+
+
+
+# Site Author
+Sasha Petrenko:
+  name             : "Sasha Petrenko"
+  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  # bio              : "Ph.D. Candidate of Computer Engineering, Aerospace Engineer, and lifelong machine learning researcher at Missouri S&T."
+  bio              : "Ph.D. of Computer Engineering, research assistant professor, machine learning researcher, and aerospace engineer at Missouri S&T."
+  location         : "Rolla, MO"
+  email            : "petrenkos@mst.edu"
+  links:
+    # - label : "Email"
+    #   icon  : "fas fa-fw fa-envelope-square"
+    #   url   : "mailto:petrenkos@mst.edu"
+    #   # url: "mailto:your.name@email.com"
+    - label : "Website"
+      icon  : "fas fa-fw fa-link"
+      url   : "https://ap6yc.github.io"
+      # url: "https://your-website.com"
+    # - label : "Twitter"
+    #   icon  : "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label : "GitHub"
+      icon  : "fab fa-fw fa-github"
+      url   : "https://github.com/art-book-online"
+      # url: "https://github.com/"
+    - label : "Instagram"
+      icon  : "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"

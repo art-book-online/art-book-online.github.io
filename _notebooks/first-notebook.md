@@ -1,32 +1,16 @@
 ---
 title: "FuzzyART in PyTorch"
 excerpt: "Write FuzzyART from scratch in PyTorch."
-# header:
+header:
 #   image: /assets/images/foo-bar-identity.jpg
-#   teaser: /assets/images/foo-bar-identity-th.jpg
+  teaser: /assets/images/pytorch-logo.svg
 sidebar:
-#   - title: "Role"
-#     image: http://placehold.it/350x250
-#     image_alt: "logo"
-#     text: "Designer, Front-End Developer"
   - title: "Responsibilities"
     text: "Some text on the sidebar."
-gallery:
-  - url: /assets/icons/book-512.png
-    image_path: assets/icons/book-512.png
-    alt: "A placeholder image"
 ---
 
-Stuff
-
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
-
-Things
+{% jupyter_notebook "./notebooks/sample.ipynb" to="markdown" %}
 
 {% render_time %}
-page rendered at:
+Page built at:
 {% endrender_time %}
-
-{% jupyter_notebook "./sample.ipynb" to="markdown" %}
-
-End of the notebook.

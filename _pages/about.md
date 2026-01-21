@@ -1,8 +1,9 @@
 ---
 layout: single
 title: "About"
-author_profile: true
 permalink: /about/
+author_profile: true
+author: Sasha Petrenko
 ---
 
 This website hosts the ART Book and its companion materials, such as code, tutorials, and interactive exercises.
