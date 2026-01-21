@@ -354,7 +354,7 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-exclude: [node_modules]
+exclude: [node_modules, vendor]
 
 jupyter_notebook:
   prompt: true
