@@ -112,7 +112,7 @@ DEPENDENCIES
   jekyll-remote-theme
   jekyll-sitemap
   kramdown-parser-gfm
-  wdm (>= 0.1.0)
+  wdm (>= 0.2.0)
   webrick
 
 BUNDLED WITH
