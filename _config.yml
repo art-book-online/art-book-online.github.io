@@ -143,7 +143,7 @@ author:
 # Site Author
 author:
   name             : "ART Book"
-  avatar           : "/assets/icons/book-512.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/icons/favicon.ico" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   # bio              : "The ART Book"
   location         : "Rolla, MO"
   email            : "petrenkos@mst.edu"

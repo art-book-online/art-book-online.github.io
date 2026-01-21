@@ -23,3 +23,5 @@ This website contains the following top-level pages:
 - [About](about){: .btn .btn--primary} -- A summary of what this website is about.
 - [Notebooks](notebooks){: .btn .btn--warning} -- ART Book exercises and Jupyter notebooks.
 - [Posts](posts){: .btn .btn--info} -- Blog-like posts about the book and website.
+
+If you would like to learn in-depth what this site is about, please read the [post about it](/posts/about/why)!
