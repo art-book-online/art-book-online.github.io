@@ -1,6 +1,10 @@
 ---
 title: "FuzzyART in PyTorch"
 excerpt: "Write FuzzyART from scratch in PyTorch."
+layout: single
+toc: true
+toc_icon: book
+toc_sticky: true
 notebook_ipynb: "fuzzyart-pytorch.ipynb"
 header:
 #   image: /assets/images/foo-bar-identity.jpg

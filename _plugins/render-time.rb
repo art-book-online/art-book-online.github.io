@@ -1,3 +1,16 @@
+module Jekyll
+  class RenderTimeTagBlock < Liquid::Block
+
+    def render(context)
+      text = super
+      "<p>#{text} #{Time.now}</p>"
+    end
+
+  end
+end
+
+Liquid::Template.register_tag('render_time', Jekyll::RenderTimeTagBlock)
+
 # _plugins/jupyter_pluginer.rb
 # module Jekyll
 #   class RenderTimeTag < Liquid::Tag
@@ -13,21 +26,6 @@
 # end
 
 # Liquid::Template.register_tag('render_time', Jekyll::RenderTimeTag)
-
-
-
-module Jekyll
-  class RenderTimeTagBlock < Liquid::Block
-
-    def render(context)
-      text = super
-      "<p>#{text} #{Time.now}</p>"
-    end
-
-  end
-end
-
-Liquid::Template.register_tag('render_time', Jekyll::RenderTimeTagBlock)
 
 
 # _plugins/nbconvert_notebooks.rb
