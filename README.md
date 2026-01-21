@@ -7,11 +7,18 @@ A website for the ART Book ... online!
 - [art-book-online.github.io](#art-book-onlinegithubio)
   - [Table of Contents](#table-of-contents)
   - [Useful Commands](#useful-commands)
+  - [Mamba](#mamba)
     - [Jupyter Div Classes](#jupyter-div-classes)
   - [Attribution](#attribution)
     - [Images](#images)
 
 ## Useful Commands
+
+## Mamba
+
+```shell
+mamba env create -n art-book-online python=3.12
+```
 
 ### Jupyter Div Classes
 
