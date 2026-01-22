@@ -63,3 +63,6 @@ Big whoop!
 ### Images
 
 - [flaticon book_2436729](https://www.flaticon.com/free-icon/book_2436729)
+- [lego bricks](https://www.freepik.com/icon/lego_15618645)
+- [PyTorch logo](https://commons.wikimedia.org/wiki/File:PyTorch_logo_icon.svg)
+- [Jupyter logo](https://commons.wikimedia.org/wiki/File:Jupyter_logo.svg)
