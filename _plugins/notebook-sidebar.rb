@@ -46,7 +46,7 @@ module NotebookSidebar
   def self.build_download_href(relative_path, site)
     baseurl = site.config["baseurl"].to_s
     # baseurl = site.baseurl.to_s
-    path = File.join("notebooks", relative_path).gsub("\\", "/")
+    path = File.join("notebooks", "notebooks", relative_path).gsub("\\", "/")
     joined = [baseurl, path].reject(&:empty?).join("/")
     href = "/#{joined}".gsub(%r{/+}, "/")
     href
