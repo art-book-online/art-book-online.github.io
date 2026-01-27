@@ -45,19 +45,21 @@ module NotebookSidebar
   # Creates the download button url
   def self.build_download_href(relative_path, site)
     baseurl = site.config["baseurl"].to_s
-    # baseurl = site.baseurl.to_s
     path = File.join("notebooks", "notebooks", relative_path).gsub("\\", "/")
     joined = [baseurl, path].reject(&:empty?).join("/")
     href = "/#{joined}".gsub(%r{/+}, "/")
     href
+    # repo = site.config["repository"].to_s.strip
+    # repo_path = File.join("_notebooks", "notebooks", relative_path).gsub("\\", "/")
+    # branch = DEFAULT_BRANCH
+    # href = "https://raw.githubusercontent.com/#{repo}/refs/heads/#{branch}/#{repo_path}"
+    return href
   end
 
   # Creates the NBViewer button url
   def self.build_nbviewer_href(relative_path, site)
     repo = site.config["repository"].to_s.strip
-    # repo = site.repository.to_s.strip
     branch = site.config["notebook_sidebar_branch"].to_s.strip
-    # branch = site.notebook_sidebar_branch.to_s.strip
     branch = DEFAULT_BRANCH if branch.empty?
     repo_path = File.join("_notebooks", "notebooks", relative_path).gsub("\\", "/")
     return "" if repo.empty?
@@ -73,8 +75,9 @@ module NotebookSidebar
         "[<i class='fas fa-fw fa-book'></i> NBViewer](#{nbviewer_href}){: .btn .btn--info}"
     end
 
+    # "[<i class='fas fa-fw fa-download'></i> Download Notebook](#{download_href}){: .btn .btn--success}",
     [
-        "[<i class='fas fa-fw fa-download'></i> Download Notebook](#{download_href}){: .btn .btn--success}",
+        "<a href='#{download_href}' class='btn btn--primary' download><i class='fas fa-fw fa-download'></i> Download Notebook</a>",
         nbviewer_link,
         "[<i class='fas fa-fw fa-arrow-up'></i> Back to Top](#site-nav){: .btn .btn--warning}"
     ].join("\n\n")
