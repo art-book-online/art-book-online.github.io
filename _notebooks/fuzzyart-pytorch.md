@@ -11,8 +11,6 @@ header:
   teaser: /assets/images/pytorch-logo.svg
 ---
 
-Checking math here: $x = [1-x]$
-
 {% jupyter_notebook "./notebooks/fuzzyart-pytorch.ipynb" to="markdown" %}
 
 {: .notice--info}
