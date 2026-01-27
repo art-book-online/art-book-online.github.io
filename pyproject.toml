@@ -1,0 +1,126 @@
+[project]
+name = "art-book-online"
+
+authors = [
+    {name = "Sasha Petrenko", email = "petrenkos@mst.edu"}
+]
+
+version = "0.1.0"
+
+description = "The ART Book...Online!"  # Optional
+
+readme = "README.md" # Optional
+
+requires-python = ">=3.6"
+
+license = {file = "LICENSE"}
+
+keywords = [
+  "project",
+  "ART",
+  "adaptive resonance theory",
+]
+
+maintainers = [
+  {name = "Sasha Petrenko", email = "petrenkos@mst.edu" } # Optional
+]
+
+# For a list of valid classifiers, see https://pypi.org/classifiers/
+classifiers = [  # Optional
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  # "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3 :: Only",
+]
+
+# This field lists other packages that your project depends on to run.
+# Any package you put here will be installed by pip when your project is
+# installed, so they must be valid existing projects.
+#
+# For an analysis of this field vs pip's requirements files see:
+# https://packaging.python.org/discussions/install-requires-vs-requirements/
+dependencies = [ # Optional
+    # "typing_extensions",
+    "jupyterlab",
+    "matplotlib",
+    "artlib",
+    "scikit-learn",
+    "numba",
+    # "mrshudson @ git+https://github.com/AP6YC/mrshudson.git@feature/basic-usage",
+    "torch",
+    "torchvision",
+    "pandas",
+    "numpy",
+    "seaborn",
+]
+
+[project.optional-dependencies] # Optional
+dev = [
+  "check-manifest",
+  "build",
+  "setuptools",
+  "twine",
+]
+test = [
+  "pytest",
+  "pytest-cov",
+  "coverage",
+  "flake8",
+]
+docs = [
+  "sphinx",
+  "furo",
+  "sphinx-multiversion",
+]
+all = [
+  "check-manifest",
+  "build",
+  "setuptools",
+  "twine",
+  "pytest",
+  "pytest-cov",
+  "coverage",
+  "flake8",
+  "sphinx",
+  "furo",
+  "sphinx-multiversion",
+]
+
+[project.urls]  # Optional
+"Homepage" = "https://github.com/AP6YC/BFA"
+"Bug Reports" = "https://github.com/AP6YC/BFA/issues"
+"Documentation" = "https://AP6YC.github.io/BFA/dev/"
+"Source" = "https://github.com/AP6YC/BFA"
+
+# The following would provide a command line executable called `sample`
+# which executes the function `main` from this package when invoked.
+# [project.scripts]  # Optional
+# sample = "sample:main"
+
+# This is configuration specific to the `setuptools` build backend.
+# If you are using a different build backend, you will need to change this.
+[tool.setuptools]
+# If there are data files included in your packages that need to be
+# installed, specify them here.
+# package-data = {"sample" = ["*.dat"]}
+
+[build-system]
+# These are the assumed default build requirements from pip:
+# https://pip.pypa.io/en/stable/reference/pip/#pep-517-and-518-support
+# requires = ["setuptools>=42"]
+requires = ["setuptools>=43.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+# minversion = 6.0
+# addopts = -ra -q
+testpaths = [
+    "tests",
+]
+log_cli = true
+log_cli_format = "%(asctime)s %(levelname)s %(message)s"
+log_cli_date_format = "%Y-%m-%d %H:%M:%S"
+log_level = "INFO"
