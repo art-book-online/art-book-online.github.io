@@ -62,8 +62,11 @@ Big whoop!
 
 ### Images
 
-- [flaticon book_2436729](https://www.flaticon.com/free-icon/book_2436729)
-- [lego bricks](https://www.freepik.com/icon/lego_15618645)
-- [PyTorch logo](https://commons.wikimedia.org/wiki/File:PyTorch_logo_icon.svg)
-- [Jupyter logo](https://commons.wikimedia.org/wiki/File:Jupyter_logo.svg)
-- [Python Logo](https://www.python.org/community/logos/)
+- Flaticon:
+  - [book_2436729](https://www.flaticon.com/free-icon/book_2436729)
+  - [clustering_8635550](https://www.flaticon.com/free-icon/clustering_8635550)
+- Other:
+  - [lego bricks](https://www.freepik.com/icon/lego_15618645)
+  - [PyTorch logo](https://commons.wikimedia.org/wiki/File:PyTorch_logo_icon.svg)
+  - [Jupyter logo](https://commons.wikimedia.org/wiki/File:Jupyter_logo.svg)
+  - [Python Logo](https://www.python.org/community/logos/)
